@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permanent Makeup by Kira Filipova</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+            color: #FFD700;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+        }
+        .about {
+            background-color: #fff;
+            padding: 50px 20px;
+        }
+        .about h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #FFD700;
+        }
+        .about p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+        .services {
+            background-color: #333;
+            color: #fff;
+            padding: 50px 20px;
+        }
+        .services h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #FFD700;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .gallery {
+            background-color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .gallery h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #FFD700;
+        }
+        .gallery img {
+            max-width: 300px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Permanent Makeup by Kira Filipova</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="about" id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Kira Filipova, and I am a certified permanent makeup artist with years of experience in enhancing natural beauty through advanced micropigmentation techniques. My goal is to help you achieve a flawless and long-lasting look that complements your features and boosts your confidence.</p>
+</section>
+
+<section class="services" id="services">
+    <h2>Services</h2>
+    <ul>
+        <li>Eyebrow Micropigmentation (Ombre, Powder Brows)</li>
+        <li>Permanent Eyeliner</li>
+        <li>Lip Blushing</li>
+        <li>Color Correction</li>
+        <li>Touch-Up Sessions</li>
+    </ul>
+</section>
+
+<section class="gallery" id="gallery">
+    <h2>Gallery</h2>
+    <img src="https://via.placeholder.com/300" alt="Before and After 1">
+    <img src="https://via.placeholder.com/300" alt="Before and After 2">
+    <img src="https://via.placeholder.com/300" alt="Before and After 3">
+</section>
+
+<footer>
+    <p>Follow me on <a href="https://www.instagram.com/permanent_makeup_by_kf/" target="_blank">Instagram</a> | Contact: [Your Phone Number]</p>
+</footer>
+
+</body>
+</html>
